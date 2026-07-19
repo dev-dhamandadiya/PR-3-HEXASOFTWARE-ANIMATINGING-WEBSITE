@@ -1,0 +1,137 @@
+
+/* =========================
+   TABLET DEVICES
+========================= */
+
+@media (max-width: 992px){
+
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .hero-content h1{
+        font-size: 3rem;
+    }
+
+    .hero-buttons{
+        justify-content: center;
+    }
+
+    .hero-image img{
+        max-width: 450px;
+    }
+
+    .timeline::before{
+        left: 20px;
+    }
+
+    .timeline-item{
+        width: 100%;
+        left: 0 !important;
+        padding-left: 60px;
+        padding-right: 0;
+    }
+
+    .timeline-item::before{
+        left: 11px !important;
+    }
+}
+
+/* =========================
+   MOBILE DEVICES
+========================= */
+
+@media (max-width: 768px){
+
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero-content h1{
+        font-size: 2.4rem;
+    }
+
+    .hero-content p{
+        font-size: 16px;
+    }
+
+    .section-title h2{
+        font-size: 2rem;
+    }
+
+    .cta{
+        padding: 50px 25px;
+    }
+
+    .cta h2{
+        font-size: 2rem;
+    }
+
+    .footer-links{
+        gap: 15px;
+    }
+
+    .chat-box{
+        width: 280px;
+        right: 15px;
+    }
+
+    .chat-toggle{
+        right: 15px;
+        bottom: 20px;
+    }
+
+    #topBtn{
+        right: 90px;
+        bottom: 20px;
+    }
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px){
+
+    .hero-content h1{
+        font-size: 2rem;
+    }
+
+    .hero-image img{
+        max-width: 320px;
+    }
+
+    .feature-card{
+        padding: 25px;
+    }
+
+    .testimonial-card{
+        padding: 25px;
+    }
+
+    .stat-card h2{
+        font-size: 2.2rem;
+    }
+
+    .cta h2{
+        font-size: 1.8rem;
+    }
+
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        padding: 10px 22px;
+    }
+}

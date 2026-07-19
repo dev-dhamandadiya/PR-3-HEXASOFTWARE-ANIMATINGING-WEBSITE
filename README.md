@@ -4,6 +4,10 @@ AI Nova is a modern and visually engaging AI-powered landing page developed usin
 
 The website is designed to showcase an artificial intelligence platform with a premium SaaS-style interface. It combines modern web design trends with smooth animations to provide users with an immersive browsing experience.
 
+[DEMO VIDEO LINK] 
+
+"https://drive.google.com/file/d/1wqlwfHv9ByVtP-6_mGg7DBJovt18rxxs/view?usp=sharing"
+
 🚀 Features
 Modern Glassmorphism UI
 

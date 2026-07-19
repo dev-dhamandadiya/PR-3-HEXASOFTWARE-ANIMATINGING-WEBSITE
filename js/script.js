@@ -143,3 +143,49 @@ window.addEventListener("scroll",()=>{
     });
 
 });
+
+const chatBtn =
+document.querySelector(".chat-toggle");
+
+const chatBox =
+document.querySelector(".chat-box");
+
+chatBtn.addEventListener("click",()=>{
+
+    if(chatBox.style.display === "block"){
+
+        chatBox.style.display = "none";
+
+    }else{
+
+        chatBox.style.display = "block";
+
+    }
+
+});
+
+const topBtn =
+document.getElementById("topBtn");
+
+window.addEventListener("scroll",()=>{
+
+    if(window.scrollY > 400){
+
+        topBtn.style.display = "block";
+
+    }else{
+
+        topBtn.style.display = "none";
+
+    }
+
+});
+
+topBtn.addEventListener("click",()=>{
+
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+
+});
